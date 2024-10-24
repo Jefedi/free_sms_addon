@@ -1,0 +1,19 @@
+{
+  "name": "Free Mobile SMS Notifier",
+  "version": "1.0",
+  "slug": "free_sms_addon",
+  "description": "Envoyer des notifications SMS via l'API Free Mobile",
+  "startup": "services",
+  "boot": "auto",
+  "ports": {},
+  "options": {
+    "user": "VOTRE_USER",
+    "pass": "VOTRE_PASS",
+    "message": "VOTRE_MESSAGE"
+  },
+  "schema": {
+    "user": "str",
+    "pass": "str",
+    "message": "str"
+  }
+}
